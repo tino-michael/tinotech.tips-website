@@ -14,7 +14,7 @@ Aber auch danach werden die meisten nicht darum herum kommen, ab und zu einen Sc
 zu verschicken.
 Da Lebenslauf und Anschreiben für jede Bewerbung angepasst werden, kommt man schnell in Versuchung,
 Kopien seiner Dateien anzulegen und diese mit Versionsnummern, Firmennamen oder dem
-berühmt berüchtigtem "final" (nicht zu schweigen vom "final_final") zu versehen.
+berühmt berüchtigtem "final" (ganz zu schweigen vom "final_final") zu versehen.
 Wenn dann noch im Laufe der Zeit neue Erfahrungen und Fähigkeiten eingebaut werden sollen, ist
 es mit der Übersicht schnell dahin.
 
@@ -37,7 +37,7 @@ jedoch ist git für diese nicht optimiert und ich rate von ihnen eher ab.
 
 Die Grundversionen der Dokumente leben im `master`-Branch.
 Wenn Informationen hinzugefügt oder Sätze umformuliert werden, gibt es einen neuen Commit.
-So hat man immer Zugriff auf ältere Versionen der selben Dateien und ist nicht auf eine Vielzahl an
+So hat man immer Zugriff auf ältere Versionen derselben Dateien und ist nicht auf eine Vielzahl an
 Kopien angewiesen, die alle nebeneinander liegen.
 Hat man eine interessante Stellenausschreibung gefunden, wird für die Firma ein dedizierter Branch
 angelegt. Hier kann man nun Kontaktdaten der Firma einpflegen und die eigenen Angaben auf die Stelle
@@ -46,7 +46,7 @@ Firmen-spezifische Informationen landen immer im entsprechenden Branch und nie i
 So verhindert man effektiv solche Peinlichkeiten wie das Ansprechen der falschen Kontaktperson oder
 zu unterstreichen, wie gut man doch in die **falsche** Firma passt.
 Die finale Version wird mit einem Commit in das Repository geschrieben.
-So hat man später für das Interview sofort die selbe Version wie der Gesprächspartner parat.
+So hat man später für das Interview sofort dieselbe Version wie der Gesprächspartner parat.
 
 ## Schritt für Schritt
 
@@ -67,7 +67,7 @@ Legt euch einen neuen Ordner für eure Bewerbungsunterlagen an und ladet `cover_
 `resume.tex` in diesen Ordner herunter.
 Die Namen dieser Dateien könnt ihr gerne ändern, um etwa noch euren eigenen Namen zu enthalten.
 Von den Styles werden `standardsetup.sty` und `application.sty` benötigt.
-Diese styles könnt ihr entweder systemweit installiert oder einfach in dem selben Ordner wie
+Diese Styles könnt ihr entweder systemweit installiert oder einfach in dem selben Ordner wie
 die `.tex`-Dateien ablegen.
 Ganz einfach geht das zum Beispiel mit `wget`:
 
@@ -89,7 +89,7 @@ Das Ganze könnte dann wie folgt aussehen:
 
 Als nächstes legen wir ein git-Repository in dem Ordner an, in den wir die Dateien heruntergeladen
 haben, und fügen alle Dateien in den initialen Commit hinzu.
-Vorher können Lebenslauf und Cover Letter natürlich schon etwas befüllt werden.
+Vorher können Lebenslauf und Anschreiben natürlich schon etwas befüllt werden.
 
 ```bash
 git init .
@@ -97,8 +97,8 @@ git add *sty *tex
 git commit -m "initialer Commit"
 ```
 
-Zur Visualisierung der Historie unseres git-Repos benutze ich den open source editor
-*Visual Studio Code* mit dem *Git Graph* plugin:
+Zur Visualisierung der Historie unseres git-Repos benutze ich den open-source editor
+*Visual Studio Code* mit dem *Git Graph* Plugin:
 
 {{< figure src="/img/posts/resume_git_latex/vscode_initial_commit_cropped.webp"
     caption=""
@@ -116,11 +116,12 @@ Alle Änderungen könnt ihr jederzeit in der Branch-Übersicht des Repositories 
 ### Für Bewerbung Branch anlegen
 
 Wenn ihr eine Stellenausschreibung gefunden habt, auf die ihr euch bewerben möchtet, legt für die
-entsprechende Firma einen neuen Branch an:
+entsprechende Firma einen neuen Branch an (und wechselt sofort dorthin):
+
 ```bash
 git checkout -b Firma_1
 ```
-um den Branch anzulegen und sofort dorthin zu wechseln.
+
 Hier könnt ihr Adresse und Ansprechpartner der Firma einpflegen und eure Unterlagen genau auf die
 ausgeschriebene Stelle anpassen.
 Wenn ihr mit euren Änderungen zufrieden seid, fixiert die Version, mit der ihr die Bewerbung
@@ -133,15 +134,17 @@ Somit könnt ihr jederzeit, wenn es nötig sein sollte, zu diesem Stand zurückk
 
 Falls ihr euch zeitgleich bei einer weiteren Firma auf eine Stelle bewerben möchtet,
 erzeugt einfach einen weiteren Branch vom `master` aus:
+
 ```bash
 git checkout -b Firma_2 master
 ```
+
 und passt alles an wie für die vorherige Ausschreibung.
 
-Wenn ihr etwas neues gelernt habt und dies in eurem Lebenslauf erwähnen möchtet, geht zurück zum
+Wenn ihr etwas Neues gelernt habt und dies in eurem Lebenslauf erwähnen möchtet, geht zurück zum
 `master`-Branch und tragt es dort mit einem neuen Commit ein. Der Stand der anderen Bewerbungs-Branches
 bleibt davon unberührt und ihr bekommt eine übersichtliche Zusammenfassung der verschiedenen
-Versionen eurer Dokumente:
+Versionen eurer Dokumente.
 
 {{< figure src="/img/posts/resume_git_latex/vscode_master_update_cropped.webp"
     caption=""
@@ -149,6 +152,7 @@ Versionen eurer Dokumente:
 
 Solltet ihr eine Version irgendwann tatsächlich nicht mehr brauchen, löscht einfach den Branch aus
 dem Repository und die Historie des gesamten Zweiges verschwindet wieder:
+
 ```bash
 git branch -D Firma_2
 ```

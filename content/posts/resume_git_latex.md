@@ -87,8 +87,8 @@ Das Ganze könnte dann wie folgt aussehen:
 
 ### git Setup
 
-Als nächstes legen wir ein git-Repository in dem Ordner an, in den wir die Dateien heruntergeladen
-haben, und fügen alle Dateien in den initialen Commit hinzu.
+Als nächstes legt ihr ein git-Repository in dem Ordner an, in den ihr die Dateien heruntergeladen
+habt, und fügt alle Dateien in den initialen Commit hinzu.
 Vorher können Lebenslauf und Anschreiben natürlich schon etwas befüllt werden.
 
 ```bash
@@ -107,7 +107,7 @@ Zur Visualisierung der Historie unseres git-Repos benutze ich den open-source ed
 Jetzt könnt ihr euch die Zeit nehmen um euren Lebenslauf und Anschreiben noch einmal ordentlich
 aufzupolieren. Einzelne Updates, wenn ihr etwa eine Berufserfahrung hinzufügt oder einen Satz
 umformuliert, sollten in eigenen Commits verewigt werden.
-Alle Änderungen könnt ihr jederzeit in der Branch-Übersicht des Repositories nachverfolgen:
+Alle Änderungen könnt ihr jederzeit in der Branch-Übersicht des Repositories nachverfolgen.
 
 {{< figure src="/img/posts/resume_git_latex/vscode_more_commits_cropped.webp"
     caption=""

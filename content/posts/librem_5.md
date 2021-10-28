@@ -1,6 +1,7 @@
 ---
 title: "Librem 5"
 date: 2021-10-23T08:59:05+02:00
+authors: ["Tino Michael"]
 draft: true
 summary: "Librem 5 privacy protecting phone"
 ---

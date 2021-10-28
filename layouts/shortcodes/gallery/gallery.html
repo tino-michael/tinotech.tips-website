@@ -1,0 +1,23 @@
+<!--<div style="padding: 0 1em;"> -->
+<figure>
+<div
+    {{ with .Get "class" }}
+        class="{{.}}-gallery"
+    {{ end }}
+    style="display: grid; grid-auto-flow: column; gap: .5em"
+>
+    {{ .Inner }}
+</div>
+<figcaption
+    {{ with .Get "class" }}
+        class="{{.}}-text"
+    {{ end }}
+>
+    {{ with .Get "title" }}
+        <h4>{{.}}</h4>
+    {{ end }}
+    {{ with .Get "caption" }}
+        <p class="gallery-caption">{{ . }}</p>
+    {{ end }}
+</figcaption>
+</figure>

@@ -1,0 +1,13 @@
+{{ $src := .Get "src" }}
+{{ with .Parent }}
+    <img
+        src= "{{$src}}"
+        {{ with .Get "class" }}class="{{ . }}-image" {{ end }}
+        {{ with .Get "alt" }}alt="{{ . }}" {{ end }}
+    >
+{{ else }}
+    <img
+        src="{{$src}}"
+        {{ with .Get "alt" }}alt="{{ . }}" {{ end }}
+    >
+{{ end }}

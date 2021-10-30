@@ -1,0 +1,86 @@
+baseURL : 'https://tinotech.tips/'
+defaultContentLanguage: 'de'
+defaultContentLanguageInSubdir: true
+
+languages:
+  de:
+    languageName: Deutsch
+    weight: 1
+    recent_posts:
+      enable: true
+      title: "neueste Beiträge"
+  cz:
+    languageName: Čeština
+    weight: 2
+    recent_posts:
+      enable: true
+      title: "recent Posts"
+  en:
+    languageName: English
+    weight: 3
+    recent_posts:
+      enable: true
+      title: "recent Posts"
+
+
+title : 'Tino Tech Tips'
+theme : 'universal'
+
+taxonomies:
+  author : "authors"
+  tag : "tags"
+  category : "categories"
+
+
+params:
+  style: "red"
+  author: "Tino Michael"
+  date_format: "2 January 2006"
+
+  logo_text: "Tino Tech Tips"
+  logo: "img/logo.svg"
+  logo_small: "img/logo.svg"
+
+  # contact_url: "/contact"
+
+  # about_us: "<p></p>"
+  # copyright: ""
+
+  defaultDescription: "Tino's Tech Blog"
+
+  mainSections:
+    - 'posts'
+
+  topbar:
+    enable: true
+    text: ""
+
+  widgets:
+    # categories: true
+    tags: true
+    search: true
+
+
+  carouselHomepage:
+    enable: false
+
+permalinks:
+  posts: "/posts/:year/:month/:filename/"
+
+menu:
+  topbar:
+    -
+      weight: 1
+      name: "github"
+      pre: "<i class='fab fa-2x fa-github'></i>"
+      url: "https://github.com/tino-michael"
+    # -
+      # weight: 2
+      # name: "mail"
+      # pre: "<i class='fas fa-2x fa-envelope-open-text'></i>"
+      # url: "mailto:info@tinotech.tips"
+  # main:
+    # -
+      # weight: 1
+      # name: "Home"
+      # url: "/"

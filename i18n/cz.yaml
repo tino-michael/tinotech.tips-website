@@ -5,7 +5,7 @@
   translation: "Design od"
 
 - id: portedBy
-  translation: "Do Huga transportoval" #"Portiert nach Hugo durch"
+  translation: "Pro Hugo transportoval" #"Portiert nach Hugo durch"
 
 - id: contactGoTo
   translation: "Ke kontaktnímu formuláři"

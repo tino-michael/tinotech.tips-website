@@ -14,7 +14,7 @@ languages:
     weight: 2
     recent_posts:
       enable: true
-      title: "recent Posts"
+      title: "nejnovější příspěvky"
   en:
     languageName: English
     weight: 3

@@ -4,10 +4,12 @@
         src= "{{$src}}"
         {{ with .Get "class" }}class="{{ . }}-image" {{ end }}
         {{ with .Get "alt" }}alt="{{ . }}" {{ end }}
+        loading="lazy"
     >
 {{ else }}
     <img
         src="{{$src}}"
         {{ with .Get "alt" }}alt="{{ . }}" {{ end }}
+        loading="lazy"
     >
 {{ end }}

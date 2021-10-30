@@ -2,115 +2,115 @@
   translation: "Home"
 
 - id: templateBy
-  translation: "Design durch"
+  translation: "Design od"
 
 - id: portedBy
-  translation: "Portiert nach Hugo durch"
+  translation: "Do Huga transportoval" #"Portiert nach Hugo durch"
 
 - id: contactGoTo
-  translation: "Zur Kontaktseite"
+  translation: "Ke kontaktnímu formuláři"
 
 - id: contactAddrTitle
-  translation: "Adresse"
+  translation: "Adresa"
 
 - id: contactTitle
   translation: "Kontakt"
 
 - id: contactForm
-  translation: "Kontaktformular"
+  translation: "Kontaktní formulář"
 
 - id: contactName
-  translation: "Ihr Name"
+  translation: "Vaše jméno"
 
 - id: contactMail
-  translation: "Ihre E-Mail-Adresse"
+  translation: "Vaše emailová adresa"
 
 - id: contactMessage
-  translation: "Ihre Nachricht an uns"
+  translation: "Vaše zpráva pro nás"
 
 - id: contactSend
-  translation: "Nachricht senden"
+  translation: "Odeslat zprávu"
 
 - id: navHome
-  translation: "zur Hauptseite"
+  translation: "K domovské stránce"
 
 - id: navToggle
-  translation: "Navigation ein-/ausblenden"
+  translation: "Zobrazit/schovat navigaci"
 
 - id: categoriesTitle
-  translation: "Kategorien"
+  translation: "Kategorie"
 
 - id: searchTitle
-  translation: "Suche"
+  translation: "Vyhledávání"
 
 - id: tagsTitle
   translation: "Tags"
 
 - id: continueReading
-  translation: "Weiterlesen"
+  translation: "Číst dál"
 
 - id: readMore
-  translation: "Mehr erfahren"
+  translation: "Dozvědět se víc"
 
 - id: authorBy
-  translation: "Von"
+  translation: "Autor:"
 
 - id: recentPosts
-  translation: "Neue Beiträge"
+  translation: "Nové příspěvky"
 
 - id: aboutUs
-  translation: "Über uns"
+  translation: "O nás"
 
 - id: newer
-  translation: "Neuer"
+  translation: "Novější"
 
 - id: older
-  translation: "Älter"
+  translation: "Starší"
 
 - id: publishedOn
-  translation: "am"
+  translation: "Zveřejněno"
 
 - id: 404Error
-  translation: "Fehler 404: Seite nicht gefunden"
+  translation: "Chyba 404: Stránka nebyla nalezena"
 
 - id: 404Message
-  translation: "Tut uns leid – diese Seite scheint nicht mehr hier zu sein"
+  translation: "Je nám líto – tahle stránka zde již není"
 
 - id: 404NavHome
-  translation: "Zur Startseite gehen"
+  translation: "K domovské stránce"
 
 - id: January
-  translation: Januar
+  translation: Leden
 
 - id: February
-  translation: Februar
+  translation: Únor
 
 - id: March
-  translation: März
+  translation: Březen
 
 - id: April
-  translation: April
+  translation: Duben
 
 - id: May
-  translation: Mai
+  translation: Květen
 
 - id: June
-  translation: June
+  translation: Červen
 
 - id: July
-  translation: Juni
+  translation: Červenec
 
 - id: August
-  translation: August
+  translation: Srpen
 
 - id: September
-  translation: September
+  translation: Září
 
 - id: October
-  translation: Oktober
+  translation: Říjen
 
 - id: November
-  translation: November
+  translation: Listopad
 
 - id: December
-  translation: Dezember
+  translation: Prosinec

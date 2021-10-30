@@ -1,25 +1,28 @@
 ---
-title: "Librem 5"
+title: "Librem 5: Das open-source Linux-Telephon"
 date: 2021-10-23T08:59:05+02:00
+banner: "/img/posts/librem_5/librem_5_logo.webp"
 authors: ["Tino Michael"]
+categories: []
+tags: ["librem", "pure_os", "privacy", "linux", "open_source"]
 draft: true
-summary: "Librem 5 privacy protecting phone"
+summary: "Im Jahre 2017 wurde mit dem Librem 5 ein komplett Linux-basiertes open-source Smartphone angekündigt. Es sollte uns der Konvergenz zwischen mobilen und stationären Computern endlich näher bringen. Ob es diese Versprechen erfüllen kann, erfahrt ihr in diesem Beitrag."
 ---
 
 Schon vor 10 Jahren fand ich es sehr nervig, mehrere Computer jonglieren zu müssen:
 Der Desktop zu Hause, ein Laptop für die Arbeit und ein Smartphone für die Hosentasche.
-Alle Geräte möchten auf dem neuesten Stand gehalten, Accounts eingerichtet und Daten
-synchronisiert werden.
-Ich hatte mir überlegt, wie toll es doch wäre, nur ein kleines Gerät zu haben, dass man überall hin
+Alle Geräte möchten auf dem neuesten Stand gehalten werden, Accounts eingerichtet und Daten
+synchronisiert haben.
+Ich hatte mir überlegt, wie toll es doch wäre, nur ein kleines Gerät zu haben, das man überall hin
 mitnehmen kann, eigenständig funktioniert (also praktisch ein Handy) und bei Bedarf zu einem Tablet,
 Laptop oder einer Workstation erweitert werden kann.
 Dabei habe ich nicht an ein stumpfes Android gedacht, dessen Oberfläche auf einen großen Bildschirm
-aufgeblasen wird, sondern an ein Betriebssystem, dass nahtlos mit einer mobilen Oberfläche auf dem
+aufgeblasen wird, sondern an ein Betriebssystem, das nahtlos mit einer mobilen Oberfläche auf dem
 kleinen Bildschirm und einer an externe Eingabegeräte (sprich: Tastatur und Maus) angepasste
 Oberfläche auf dem großen Bildschirm umgehen kann.
 
 Irgendwann bin ich auf Razer's [Project Linda](https://www.razer.com/concepts/project-linda) gestoßen:
-Ein Smartphone, dass an die Stelle des Touchpads in ein Laptop-Gehäuse gesteckt werden kann.
+Ein Smartphone, das an die Stelle des Touchpads in ein Laptop-Gehäuse gesteckt werden kann.
 Der Laptop bringt neben Display und Tastatur noch erweiterten Speicher und Akkukapazität.
 Man durfte also hoffen, auch wenn das Projekt nie über die Konzeptphase hinausgekommen zu sein scheint.
 
@@ -38,13 +41,13 @@ Ich hatte also kein Problem damit, eine Weile auf mein Librem 5 zu warten.
 
 {{< figure
     src="/img/posts/librem_5/Librem5LinuxDesktop-Monitor.jpg"
-    caption="Librem 5 angeschlossen an externem Monitor, Maus und Tastatur. 3D-Rendering, dass in der Crowdfunding Kampagne benutzt wurde. CC-by-SA 4.0 Purism."
-    alt="Librem 5 angeschlossen an externem Monitor, Maus und Tastatur 3D rendering mockup"
+    caption="Librem 5 angeschlossen an externem Monitor, Maus und Tastatur. 3D-Rendering, das in der Crowdfunding Kampagne benutzt wurde. CC-by-SA 4.0 Purism."
+    alt="Librem 5 angeschlossen an externem Monitor, Maus und Tastatur 3D-Rendering-Mockup"
 >}}
 
 ## Ankunft und erster Eindruck
 
-Sprung in den September 2021, ich möchte doch bitte mein Adresse bestätigen, mein Librem 5 wäre
+Sprung in den September 2021, ich möchte doch bitte meine Adresse bestätigen, mein Librem 5 wäre
 zum Verschicken bereit.
 Adresse bestätigt und ein paar Tage später lag das Librem 5 tatsächlich nach 4 Jahren vor mir auf
 dem Tisch.
@@ -54,7 +57,7 @@ Auch das mit 260&nbsp;g etwa 70&nbsp;g höhere Gewicht machen sich bemerkbar.
 Entlang des rechten Randes liegen die üblichen Knöpfe für Power/Display und Lautstärke.
 An der linken Seite liegt der Slot für SIM und SD-Karte und mehrere Schiebeschalter für die
 Mobilverbindung, WLAN+Bluetooth und Kamera+Mikrophon.
-Diese Schalter trennen mechanisch die Stromversorgung der entsprechenden Geräte, so dass man sich
+Diese Schalter trennen mechanisch die Stromversorgung der entsprechenden Geräte, sodass man sich
 wirklich sicher sein kann, dass die Funktionalität abgeschaltet ist und sich niemand durch Hacks
 oder Software-Hintertüren doch Zugriff verschaffen kann.
 Die Abdeckung auf der Rückseite kann entfernt werden und legt den wechselbaren Akku und den Slot
@@ -78,13 +81,15 @@ Auf der Oberseite befindet sich dann noch ein 3,5&nbsp;mm Kopfhöreranschluss.
 OK, also Powerknopf gedrückt halten und anschalten.
 Die LED in der oberen rechten Ecke leuchtet auf, und ich werde nach einem Passwort für die
 Verschlüsselung gefragt. Ich wusste nicht, dass eine Verschlüsselung bereits werksseitig aufgesetzt
-wurde und so habe ich gedacht, das wäre eventuell das Verschlüsselungs-Setup und versucht,
+wurde und so habe ich gedacht, das wäre eventuell das Verschlüsselungs-Setup und habe versucht,
 ein eigenes Passwort zu setzen.
 Das hat natürlich nicht geklappt; ein leeres Passwort auch nicht.
 In der Kurzanleitung wurde erwähnt, dass das voreingestellte Passwort für die Bildschirmsperre
 "123456" wäre. Damit wurde dann auch der Massenspeicher entsperrt.
 Die Bestätigungsmeldung zeigt, dass hier `cryptsetup` zum Einsatz kommt.
 Eine Änderung des Passwortes sollte später somit ohne Probleme möglich sein.
+Nach wenigen Sekunden befinde ich mich im Hauptmenü von PureOS, dem Linux-Derivat, das auf dem
+Librem seinen Dienst verrichtet.
 
 Ich habe erst mal keine SIM-Karte eingelegt und mich nur in mein heimisches WLAN eingewählt.
 Der PureOS Store hat auch gleich ein paar Updates vorgeschlagen.
@@ -117,7 +122,7 @@ Man muss auf einen "Zurück"-Knopf tippen um zum vorherigen Menü zurückzukehre
 
 {{< gallery/gallery
     class="gallery"
-    caption="Verschiedene Screenshots vom Librem 5: Die App-Übersicht, das Einstellungsmenü und die Energieeinsetllungen."
+    caption="Verschiedene Screenshots vom Librem 5: Die App-Übersicht, das Einstellungsmenü und die Energieeinstellungen."
 >}}
 {{< gallery/image
     src="/img/posts/librem_5/librem_5_screenshot_menu.webp"
@@ -150,16 +155,15 @@ Ab und zu findet man aber doch noch Programme oder einzelne Menüs, die nicht ga
 Schirm passen und etwas über den Rand hinausragen.
 Landet ein Knopf außerhalb des Bildschirms, ist dieser leider nicht mehr erreichbar.
 Mit einer externen Maus (etwa über Bluetooth) könnte man das Fenster zur Seite schieben und
-das gesamte Fenster doch noch erreichen.
+den restlichen Teil des Fensters doch noch erreichen.
 Hier ist sicherlich noch einiges an Arbeit nötig und viele Programme müssen wohl per Hand angepasst
 werden, damit sie sich gut in den kleineren Bildschirm einfügen.
 
 ## Librem 5 im Alltag
 
 Ein weiterer Fokus des Librem Projektes ist die Respektierung der Freiheit und Privatsphäre der Benutzer.
-Das heißt, dass, wo es irgend geht, quelloffene Software, Firmware und sogar Hardware zum
-Einsatz kommt.
-Das heißt aber auch, dass an vielen Stellen mangels offener Treiber nicht die performanteste
+Das heißt, dass quelloffene Software, Firmware und sogar Hardware zum Einsatz kommt, wo es irgend geht.
+Es heißt aber auch, dass an vielen Stellen mangels offener Treiber nicht die performanteste
 Hardware zur Verfügung steht.
 Beim Librem 5 muss man definitiv Abstriche bei der Kamera, Batteriekapazität und Rechenleistung
 hinnehmen.
@@ -169,11 +173,14 @@ Die Batterie reicht selbst bei geringer Benutzung nur etwa einen halben Tag.
 Man muss also regelmäßig daran denken, das Telephon zu laden oder bei Nichtbenutzung auszuschalten.
 Die Rechenleistung reicht auf jeden Fall um Textdateien zu editieren, E-Mails zu schreiben und
 Videos zu gucken, auch wenn das Interface teilweise etwas träge reagiert.
+(Ich habe aber auch schon noch langsamere Android-Handys erlebt.)
+
+## Schlusswort
 
 Ich kann mir sehr gut vorstellen, dass das Librem 5 für Leute, die viel beruflich reisen, eine
 leichtgewichtige Option ist, bequem ihre Präsentationen mitzubringen oder von unterwegs ihren Code
 zu bearbeiten.
-Zwar wird es für mich in seiner jetzige Form so bald weder meinen Laptop noch mein Android Handy
+Zwar wird es für mich in seiner jetzigen Form so bald weder meinen Laptop noch mein Android Handy
 ersetzen.
 Jedoch sehe ich das Librem 5 als einen großen und wichtigen Schritt in die richtige Richtung hin zu
 einer "konvergierenden Software-Landschaft".

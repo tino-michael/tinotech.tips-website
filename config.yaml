@@ -35,7 +35,7 @@ taxonomies:
 params:
   style: "red"
   author: "Tino Michael"
-  date_format: "2 January 2006"
+  date_format: "2. January 2006"
 
   logo_text: "Tino Tech Tips"
   logo: "img/logo.svg"
@@ -44,7 +44,7 @@ params:
   # contact_url: "/contact"
 
   # about_us: "<p></p>"
-  # copyright: ""
+  copyright: "Tino Michael: <img class='cc-img' src=/img/cc.svg alt='Creative Commons'><img class='cc-img' src=/img/cc-by.svg alt='Creative Commons BY'><img class='cc-img' src=/img/cc-nc-eu.svg alt='Creative Commons NC'><img class='cc-img' src=/img/cc-sa.svg alt='Creative Commons SA'>"
 
   defaultDescription: "Tino's Tech Blog"
 

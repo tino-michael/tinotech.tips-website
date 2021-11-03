@@ -56,7 +56,7 @@ params:
     text: ""
 
   widgets:
-    # categories: true
+    categories: true
     tags: true
     search: true
 

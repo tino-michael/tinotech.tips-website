@@ -3,6 +3,7 @@ title: "Bewerbungsunterlagen super einfach organisieren mit git und Latex"
 date: 2021-10-09T10:00:00+02:00
 banner: "img/posts/resume_git_latex/banner.webp"
 authors: ["Tino Michael"]
+categories: ["Workflow"]
 tags: ["latex", "git", "resume", "organising"]
 summary: "Da Lebenslauf und Anschreiben für jede Bewerbung angepasst werden, kommt man schnell in Versuchung, Kopien seiner Dateien anzulegen und diese mit Versionsnummern, Firmennamen oder dem berühmt berüchtigtem \"final\" zu versehen."
 ---

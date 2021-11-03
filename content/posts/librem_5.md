@@ -1,11 +1,10 @@
 ---
 title: "Librem 5: Das open-source Linux-Telephon"
-date: 2021-10-23T08:59:05+02:00
+date: 2021-11-03T08:59:05+02:00
 banner: "/img/posts/librem_5/librem_5_logo.webp"
 authors: ["Tino Michael"]
-categories: []
+categories: ["Gadgets"]
 tags: ["librem", "pure_os", "privacy", "linux", "open_source"]
-draft: true
 summary: "Im Jahre 2017 wurde mit dem Librem 5 ein komplett Linux-basiertes open-source Smartphone angekündigt. Es sollte uns der Konvergenz zwischen mobilen und stationären Computern endlich näher bringen. Ob es diese Versprechen erfüllen kann, erfahrt ihr in diesem Beitrag."
 ---
 
@@ -145,7 +144,7 @@ Menüs als Navigationsleiste am Fensterrand dargestellt und ausgewählte Punkte 
 {{< figure
     src="/img/posts/librem_5/librem_5_screenshot_extended.webp"
     alt="Librem 5 Erweiterte Arbeitsfläche Extended Desktop"
-    caption="Erweiterte Arbeitsfläche auf dem Librem 5. Der Bildschirm des Telephons ist oben links im Screenshot dargestellt. Die Hauptfläche des Bilder repräsentiert meinen externen Monitor."
+    caption="Erweiterte Arbeitsfläche auf dem Librem 5. Der Bildschirm des Telephons ist links im Screenshot dargestellt. Die Hauptfläche des Bildes repräsentiert meinen externen Monitor."
 >}}
 
 Die Idee ist nicht, komplett neue graphische Oberflächen für den Mobilmodus zu erstellen, sondern

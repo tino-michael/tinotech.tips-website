@@ -4,7 +4,13 @@
     {{ with .Get "class" }}
         class="{{.}}-gallery"
     {{ end }}
-    style="display: grid; grid-auto-flow: column; gap: .5em"
+    style="display: grid; gap: .5em;
+    {{ with .Get "ncol" }}
+        grid-template-columns: repeat({{ . }}, 1fr);
+    {{ else }}
+        grid-auto-flow: column;
+    {{ end  }}
+    "
 >
     {{ .Inner }}
 </div>

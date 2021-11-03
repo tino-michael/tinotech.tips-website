@@ -1,9 +1,10 @@
 {{ $src := .Get "src" }}
-{{ with .Parent }}
+{{ if .Parent }}
     <img
-        src= "{{$src}}"
-        {{ with .Get "class" }}class="{{ . }}-image" {{ end }}
-        {{ with .Get "alt" }}alt="{{ . }}" {{ end }}
+        src="{{$src}}"
+        {{ with .Parent.Get "class" }} class="{{ . }}-image" {{ end }}
+        {{ with .Get "alt" }} alt="{{ . }}" {{ end }}
+        {{ with .Get "cols" }} style="grid-column: {{ . | safeCSS }} ;" {{ end }}
         loading="lazy"
     >
 {{ else }}

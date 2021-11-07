@@ -1,3 +1,6 @@
 [submodule "themes/universal"]
 	path = themes/universal
 	url = https://github.com/devcows/hugo-universal-theme
+[submodule "layouts/partials"]
+	path = layouts/partials
+	url = git@github.com:tino-michael/hugo-partials.git

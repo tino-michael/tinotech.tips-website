@@ -12,6 +12,7 @@ languages:
   cz:
     languageName: Čeština
     weight: 2
+    date_format: "02.01.2006"
     recent_posts:
       enable: true
       title: "nejnovější příspěvky"
@@ -38,8 +39,8 @@ params:
   date_format: "2. January 2006"
 
   logo_text: "Tino Tech Tips"
-  logo: "img/logo.svg"
-  logo_small: "img/logo.svg"
+  logo: "img/logo_text.svg"
+  logo_small: "img/logo_text.svg"
 
   # contact_url: "/contact"
 

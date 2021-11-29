@@ -101,7 +101,7 @@ für die Favoriten.
 Was auffällig fehlt, ist ein von Android bekanntes Home-Screen-Karussel, auf dem man Verknüpfungen
 und Widgets -- etwa Uhr, Wetter, Kalender usw. -- verteilen kann.
 
-In einem [Begleitartikel](../librem_5_begleitung) gehe ich mehr auf einzelne und kleinere Aspekte
+In einem [Begleitartikel]({{< ref librem_5_begleitung >}}) gehe ich mehr auf einzelne und kleinere Aspekte
 ein, die mir während meiner ersten Woche Rumspielen aufgefallen sind.
 
 ## Convergence

@@ -4,7 +4,7 @@
     {{ with .Get "class" }}
         class="{{.}}-gallery"
     {{ end }}
-    style="display: grid; gap: .5em;
+    style="display: grid; gap: .5em; place-items: center;
     {{ with .Get "ncol" }}
         grid-template-columns: repeat({{ . }}, 1fr);
     {{ else }}
@@ -14,16 +14,19 @@
 >
     {{ .Inner }}
 </div>
-<figcaption
-    {{ with .Get "class" }}
-        class="{{.}}-text"
-    {{ end }}
->
-    {{ with .Get "title" }}
-        <h4>{{.}}</h4>
-    {{ end }}
-    {{ with .Get "caption" }}
-        <p class="gallery-caption">{{ . }}</p>
-    {{ end }}
-</figcaption>
+{{ if (.Get "title") | or (.Get "caption") }}
+    <figcaption
+        {{ with .Get "class" }}
+            class="{{.}}-text"
+        {{ end }}
+        style="margin-top: 1em;"
+    >
+        {{ with .Get "title" }}
+            <h4>{{.}}</h4>
+        {{ end }}
+        {{ with .Get "caption" }}
+            <p class="gallery-caption">{{ . | safeHTML }}</p>
+        {{ end }}
+    </figcaption>
+{{ end }}
 </figure>

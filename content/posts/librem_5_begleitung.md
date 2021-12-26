@@ -122,7 +122,7 @@ Ein Neustart war angesagt.
 {{< /gallery/gallery >}}
 
 {{< gallery/gallery
-    caption="Screenshot der Kamera-App im Landschaftsmodus. Das Kamerabild ist verdreht und weiterhin hochkant ausgerichtet.9"
+    caption="Screenshot der Kamera-App im Landschaftsmodus. Das Kamerabild ist verdreht und weiterhin hochkant ausgerichtet."
 >}}
     {{< gallery/image
         src="/img/posts/librem_5/librem_5_screenshot_camera.webp"

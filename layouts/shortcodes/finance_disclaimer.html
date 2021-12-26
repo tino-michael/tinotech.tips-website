@@ -1,9 +1,19 @@
 <div class="finance_disclaimer">
-    <h3>Haftungsausschluss</h3>
-    <p>
-        Ich bin kein lizensierter Finanzberater.
-        Die hier vorgestellten Informationen stellen keine Handlungsempfehlungen dar.
-        Ich übernehme keine Haftung für Aktualität, Richtigkeit oder Vollständigkeit der hier gemachten Angaben.
-        Investitionen in hier beschriebene Finanzprodukte erfolgen stets auf eigenes Risiko.
-    </p>
+    {{ if eq .Page.Lang "de" }}
+        <h3>Haftungsausschluss</h3>
+        <p>
+            Ich bin kein lizensierter Finanzberater.
+            Die hier vorgestellten Informationen stellen keine Handlungsempfehlungen dar.
+            Ich übernehme keine Haftung für Aktualität, Richtigkeit oder Vollständigkeit der hier gemachten Angaben.
+            Investitionen in hier beschriebene Finanzprodukte erfolgen stets auf eigenes Risiko.
+        </p>
+    {{ else if eq .Page.Lang "en" }}
+        <h3>Financial Disclaimer</h3>
+        <p>
+            I am not a licensed financial advisor.
+            The information provided here do not constitute financial advice.
+            I will not take any responsibility for up-to-dateness, correctness or completeness of the provided information.
+            Investing in here described financial products is always performed at one's own risk
+        </p>
+    {{ end }}
 </div>

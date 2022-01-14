@@ -1,2 +1,19 @@
 - id: posts
   translation: Beiträge
+
+- id: newsletterTitle
+  translation: Newsletter
+- id: newsletterEmail
+  translation: E-Mail Adresse
+- id: newsletterName
+  translation: Name
+- id: newsletterLanguage
+  translation: Sprache(n) wählen
+- id: newsletterFormat
+  translation: E-Mail Format
+- id: newsletterPlain
+  translation: Plain-Text
+- id: newsletterHTML
+  translation: HTML
+- id: newsletterSubscribe
+  translation: anmelden

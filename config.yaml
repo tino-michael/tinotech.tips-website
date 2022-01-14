@@ -39,8 +39,8 @@ params:
   date_format: "2. January 2006"
 
   logo_text: "Tino Tech Tips"
-  logo: "img/logo_text.svg"
-  logo_small: "img/logo_text.svg"
+  logo: "img/logo_text.webp"
+  logo_small: "img/logo.webp"
 
   # contact_url: "/contact"
 

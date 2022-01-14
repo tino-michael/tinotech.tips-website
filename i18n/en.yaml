@@ -1,3 +1,5 @@
+- id: profileAltText
+  translation: Profile picture of
 - id: posts
   translation: Posts
 
@@ -8,7 +10,7 @@
 - id: newsletterName
   translation: Name
 - id: newsletterLanguage
-  translation: choose language(s)
+  translation: Choose language(s)
 - id: newsletterFormat
   translation: Email format
 - id: newsletterPlain
@@ -16,4 +18,4 @@
 - id: newsletterHTML
   translation: HTML
 - id: newsletterSubscribe
-  translation: subscribe
+  translation: Subscribe

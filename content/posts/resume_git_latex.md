@@ -96,7 +96,7 @@ git add *sty *tex
 git commit -m "initialer Commit"
 ```
 
-Zur Visualisierung der Historie unseres git-Repos benutze ich den open-source editor
+Zur Visualisierung der Historie unseres git-Repos benutze ich den Open-Source Editor
 *Visual Studio Code* mit dem *Git Graph* Plugin:
 
 {{< figure src="/img/posts/resume_git_latex/vscode_initial_commit_cropped.webp"

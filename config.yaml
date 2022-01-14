@@ -40,7 +40,7 @@ params:
 
   logo_text: "Tino Tech Tips"
   logo: "img/logo_text.webp"
-  logo_small: "img/logo.webp"
+  logo_small: "img/logo_text.webp"
 
   # contact_url: "/contact"
 

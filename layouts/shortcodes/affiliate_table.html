@@ -1,0 +1,37 @@
+<div class="affiliate_table">
+    <div class="header_cell">
+        {{ i18n "affiliateOffer" }}
+    </div>
+    <div class="header_cell">
+        {{ i18n "affiliateDescription" }}
+    </div>
+    <div class="header_cell">
+        {{ i18n "affiliateYouGet" }}
+    </div>
+    <div class="header_cell">
+        {{ i18n "affiliateIGet" }}
+    </div>
+    <div class="header_cell">
+        {{ i18n "affiliateRequ" }}
+    </div>
+    <div class="header_cell">
+        {{ i18n "affiliateRefLink" }}
+    </div>
+    {{ range .Site.Data.affiliates }}
+        <div class="data_cell">{{ .site }}</div>
+        <div class="data_cell">
+            {{ .description }}
+            {{ with (site.GetPage .article).Permalink }}
+                <a href={{ . }}>{{ i18n "affiliateToArticle" }}</a>
+            {{ end }}
+        </div>
+        <div class="data_cell">{{ .you_get }}</div>
+        <div class="data_cell">{{ .i_get }}</div>
+        <div class="data_cell">{{ .trigger }}</div>
+        <div class="data_cell">
+            <a href={{ .reflink }} target="_blank">
+                {{ i18n "affiliateClickHere" }}
+            </a>
+        </div>
+    {{ end }}
+</div>

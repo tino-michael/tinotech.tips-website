@@ -9,6 +9,22 @@ languages:
     recent_posts:
       enable: true
       title: "neueste Beiträge"
+    menu:
+      topbar:
+        -
+          weight: 1
+          name: "github"
+          pre: "<i class='fab fa-2x fa-github'></i>"
+          url: "https://github.com/tino-michael"
+      main:
+        -
+          weight: 1
+          name: "Alle Beiträge"
+          url: "/de/posts"
+        -
+          weight: 2
+          name: "Partnerprogramme"
+          url: "/de/affiliates"
   cz:
     languageName: Čeština
     weight: 2
@@ -22,7 +38,22 @@ languages:
     recent_posts:
       enable: true
       title: "recent Posts"
-
+    menu:
+      topbar:
+        -
+          weight: 1
+          name: "github"
+          pre: "<i class='fab fa-2x fa-github'></i>"
+          url: "https://github.com/tino-michael"
+      main:
+        -
+          weight: 1
+          name: "All Posts"
+          url: "/en/posts"
+        -
+          weight: 2
+          name: "Affiliate Programmes"
+          url: "/en/affiliates"
 
 title : 'Tino Tech Tips'
 theme : 'universal'
@@ -80,8 +111,3 @@ menu:
       # name: "mail"
       # pre: "<i class='fas fa-2x fa-envelope-open-text'></i>"
       # url: "mailto:info@tinotech.tips"
-  # main:
-    # -
-      # weight: 1
-      # name: "Home"
-      # url: "/"

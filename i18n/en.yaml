@@ -19,3 +19,20 @@
   translation: HTML
 - id: newsletterSubscribe
   translation: Subscribe
+
+- id: affiliateOffer
+  translation: Offer
+- id: affiliateDescription
+  translation: Description
+- id: affiliateYouGet
+  translation: What you get
+- id: affiliateIGet
+  translation: What I get
+- id: affiliateRequ
+  translation: Requisite
+- id: affiliateRefLink
+  translation: Refferal Link
+- id: affiliateToArticle
+  translation: (to article)
+- id: affiliateClickHere
+  translation: click!

@@ -17,7 +17,9 @@
     <div class="header_cell">
         {{ i18n "affiliateRefLink" }}
     </div>
+    {{ $lang := .Page.Lang }}
     {{ range .Site.Data.affiliates }}
+    {{ if eq (index . "lang") $lang }}
         <div class="data_cell">{{ .site }}</div>
         <div class="data_cell">
             {{ .description }}
@@ -33,5 +35,6 @@
                 {{ i18n "affiliateClickHere" }}
             </a>
         </div>
+    {{ end }}
     {{ end }}
 </div>

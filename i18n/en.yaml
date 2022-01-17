@@ -6,7 +6,7 @@
 - id: newsletterTitle
   translation: Newsletter
 - id: newsletterEmail
-  translation: Email addresse
+  translation: Email address
 - id: newsletterName
   translation: Name
 - id: newsletterLanguage

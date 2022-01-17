@@ -113,7 +113,7 @@ The following picture nicely shows the different loyalty level and their require
 
 The higher your loyalty level the higher the interest rate you get for your deposits.
 In the Silver Level, you get a 0,25&nbsp;% bonus on your Euro interests.
-In Gold Level, the bonus is 1&nbsp;& and in Platinum Level, it's a 2&nbsp;% bonus.
+In Gold Level, the bonus is 1&nbsp;% and in Platinum Level, it's a 2&nbsp;% bonus.
 The 4&nbsp;% bonus for setting up a fixed term still goes on top of that of course.
 
 By default, the interests are paid in the same currency that you are saving in.

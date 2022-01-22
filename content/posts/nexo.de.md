@@ -6,7 +6,7 @@ authors: ["Tino Michael"]
 categories: ["FinTech"]
 tags: ["nexo", "crypto", "investieren"]
 summary: "In Zeiten notorisch niedriger Zinsen weiß man gar nicht, wo man sein hart erarbeitetes Geld anlegen
-    soll, ohne dass es langsam aber sicher von steigender Inflation aufgefressen wird. Diese Lücke versuchen nun moderne FinTech Unternehmen zu schließen. Eines davon ist Nexo, welches bis zu 12&nbsp;% Jahreszinsen verspricht."
+    soll, ohne dass es langsam aber sicher von steigender Inflation aufgefressen wird. Diese Lücke versuchen nun moderne FinTech Unternehmen zu schließen. Eines davon ist Nexo, welches bis zu 12&#8239;% Jahreszinsen verspricht."
 ---
 
 In Zeiten notorisch niedriger Zinsen weiß man gar nicht, wo man sein hart erarbeitetes Geld anlegen
@@ -24,13 +24,13 @@ können und dennoch brauchbare Renditen bringen, wird die Auswahl schnell stark 
 ## Nexo als Alternative
 
 Diese Lücke versuchen nun moderne FinTech (Finanztechnologie) Unternehmen zu schließen.
-Eines davon ist {{< reflink/nexo >}}, welches bis zu 12&nbsp;% Jahreszinsen auf Geldeinlagen in
+Eines davon ist {{< reflink/nexo >}}, welches bis zu 12&#8239;% Jahreszinsen auf Geldeinlagen in
 Euro, Britischen Pfund und US Dollar verspricht.
 Darüber hinaus bietet Nexo auch kompetitive Zinsen auf verschiedene Crypto-Coins an, worauf ich
 aber in einem anderen Beitrag näher eingehen möchte.
 
 Wer sich über meinen {{< reflink/nexo Referral-Link >}} anmeldet, kann sich einen einmaligen
-25&nbsp;USD Willkommensbonus sichern.
+10&#8239;USD Willkommensbonus sichern (Stand Januar 2022).
 Wenn man das volle Angebot um Fiat-Geld wie Euro oder US Dollar wahrnehmen möchte, muss man nach
 der Registrierung eine KYC-Prozedur  ("Know Your Customer", englisch für "Kenne deinen Kunden")
 durchführen und verifizieren, dass man auch die Person ist, für die man sich ausgibt.
@@ -57,7 +57,7 @@ Das überwiesene Geld sollte dann innerhalb von ein bis zwei Banktagen ankommen 
 zur Verfügung stehen.
 Sobald das Geld auf dem Konto liegt, fängt es auch sofort an, Zinsen zu generieren, die täglich
 gutgeschrieben werden.
-Wie hoch die persönliche Zinsrate ist und ob man tatsächlich die versprochenen "bis zu 12&nbsp;%"
+Wie hoch die persönliche Zinsrate ist und ob man tatsächlich die versprochenen "bis zu 12&#8239;%"
 bekommt, hängt von verschiedenen Faktoren ab.
 
 Eine Auszahlung seines Geldes zurück auf ein IBAN-Konto ist mit wenigen Klicks veranlasst.
@@ -67,9 +67,9 @@ Meine Auszahlungen landeten in der Regel nach ein bis zwei Tagen auf meinem Bank
 
 Solange man sich vorerst nur auf Fiat-Anlagen konzentriert, hat man im Grunde zwei Optionen:
 Entweder man lässt das Geld einfach auf dem Konto liegen
--- dann bekommt man den Basiszinssatz von 4&nbsp;% (Stand November 2021) --
+-- dann bekommt man den Basiszinssatz von 4&#8239;% (Stand November 2021) --
 oder man kann es für eine feste Laufzeit von drei Monaten anlegen, um einen Bonus von weiteren
-4&nbsp;% zu bekommen.
+4&#8239;% zu bekommen.
 Auch hier werden die Zinsen täglich bestimmt, aber über die Laufzeit gesammelt und erst nach Ablauf
 der drei Monate auf das Konto gutgeschrieben.
 Beim Anlegen einer festen Laufzeit kann man einen Haken setzen, dass diese nach Ablauf automatisch
@@ -113,24 +113,24 @@ Die verschiedenen Treuelevel und deren Anforderungen sieht man gut im folgenden 
 {{< /gallery/gallery >}}
 
 Je höher das eigene Treuelevel umso höhere Zinsen bekommt man für seine Einlagen.
-Befindet man sich zum Beispiel im Silber-Level, bekommt man 0,25&nbsp;% Bonus auf seine Euro-Zinsen.
-Im Gold-Level sind es 1&nbsp;% und für Platin 2&nbsp;% Bonus.
-Die 4&nbsp;% Bonus für die feste Laufzeit Anlage kommt natürlich weiterhin oben drauf.
+Befindet man sich zum Beispiel im Silber-Level, bekommt man 0,25&#8239;% Bonus auf seine Euro-Zinsen.
+Im Gold-Level sind es 1&#8239;% und für Platin 2&#8239;% Bonus.
+Die 4&#8239;% Bonus für die feste Laufzeit Anlage kommt natürlich weiterhin oben drauf.
 
 Normalerweise werden die Zinsen in derselben Währung ausgezahlt, in der man angelegt hat.
-Lässt man sie sich stattdessen in NEXO-Token auszahlen, kann man weitere 2&nbsp;% Zinsen einstreichen.
-Nimmt man alle diese Bonuszinsen mit, landet man tatsächlich bei 12&nbsp;%:
+Lässt man sie sich stattdessen in NEXO-Token auszahlen, kann man weitere 2&#8239;% Zinsen einstreichen.
+Nimmt man alle diese Bonuszinsen mit, landet man tatsächlich bei 12&#8239;%:
 
-- 4&nbsp;% Basiszinssatz
-- 4&nbsp;% feste Laufzeit
-- 2&nbsp;% Auszahlung in NEXO-Token
-- 2&nbsp;% Platin Treuebonus
+- 4&#8239;% Basiszinssatz
+- 4&#8239;% feste Laufzeit
+- 2&#8239;% Auszahlung in NEXO-Token
+- 2&#8239;% Platin Treuebonus
 
 Wie andere Crypto-Währungen fluktuieren auch die NEXO-Token mitunter stark im Preis
 (von Mitte Oktober bis Mitte November 2021 hat sich der Wert zum Beispiel verdoppelt).
-Ob es einem die 4&nbsp;% Bonuszinsen für Platin Treuelevel plus NEXO-Token-Auszahlung wert sind,
+Ob es einem die 4&#8239;% Bonuszinsen für Platin Treuelevel plus NEXO-Token-Auszahlung wert sind,
 ins NEXO-Token-Ökosystem zu investieren, sollte daher gut überlegt werden.
-Selbst wenn nicht, sind die zusammen 8&nbsp;% Zinsen für feste, dreimonatige Anlagen weit mehr als
+Selbst wenn nicht, sind die zusammen 8&#8239;% Zinsen für feste, dreimonatige Anlagen weit mehr als
 das, was klassische Banken anbieten.
 
 {{< gallery/gallery
@@ -139,9 +139,9 @@ das, was klassische Banken anbieten.
 {{< charts/nexo >}}
 {{< /gallery/gallery >}}
 
-Die NEXO Token selbst werden übrigens auch verzinst und zwar mit einem 7&nbsp;% Basiszinssatz.
-Dieser kann wiederum durch feste Laufzeiten über 3 Monate (Bonus: 2&nbsp;%) oder
-12 Monate (Bonus: 5&nbsp;%) aufgebessert werden.
+Die NEXO Token selbst werden übrigens auch verzinst und zwar mit einem 7&#8239;% Basiszinssatz.
+Dieser kann wiederum durch feste Laufzeiten über 3 Monate (Bonus: 2&#8239;%) oder
+12 Monate (Bonus: 5&#8239;%) aufgebessert werden.
 Die Token können jederzeit auf der Webseite selbst für Euro verkauft oder gegen andere Cryptos
 umgetauscht werden.
 
@@ -152,7 +152,7 @@ seine Anleger auszuschütten.
 Wie bei klassischen Banken kann man hier sowohl Geld anlegen, als auch ausleihen.
 Anders als bei klassischen Banken, kann man hier auch sein Crypto-Portfolio als Kollateral hinterlegen.
 So kann man zum Beispiel seine Bitcoins als Sicherheit hinterlegen und Euro ausleihen.
-Dafür zahlt man zwischen 7&nbsp;% und 14&nbsp;% Kreditzinsen (je nach Treuelevel).
+Dafür zahlt man zwischen 7&#8239;% und 14&#8239;% Kreditzinsen (je nach Treuelevel).
 Von diesen Kreditzinsen werden dann die Habenszinsen der anderen Anleger bedient.
 
 ## Einlagensicherung {#sicherheit}
@@ -164,12 +164,12 @@ Kosten bedient werden können.
 Darüber hinaus ist Nexo zu externen Audits verpflichtet.
 Einer dieser Auditoren ist [Armanino](https://real-time-attest.trustexplorer.io/nexo), auf deren
 Webseite man in Echtzeit nachsehen kann, inwieweit Nexo seine Verbindlichkeiten decken kann.
-Zum Zeitpunkt des Schreibens steht die Deckung "in Exzess von 100&nbsp;%", Nexo kann also alle
+Zum Zeitpunkt des Schreibens steht die Deckung "in Exzess von 100&#8239;%", Nexo kann also alle
 Einlagen bedienen.
 
 ## Kreditkarte
 
-Das Nexo-Team hat bereits eine Kreditkarte mit 2&nbsp;% Cashback angekündigt, die man mit seinem
+Das Nexo-Team hat bereits eine Kreditkarte mit 2&#8239;% Cashback angekündigt, die man mit seinem
 Fiat- und Crypto-Portfolio abzahlen kann.
 Den vorläufigen Mockup-Bildern zufolge handelt es sich um eine MasterCard.
 Wann sie tatsächlich erscheinen soll, kann ich jedoch leider nicht sagen.

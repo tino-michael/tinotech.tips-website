@@ -5,9 +5,14 @@ authors: ["Tino Michael"]
 categories: ["Workflow"]
 tags: ["Sicherheit", "shell"]
 # banner:
+summary: |
+    In einem anderen Artikel habe ich mit *pass* einen minimalistischen Passwortmanager vorgestellt,
+    der immer noch davon abhängt, die Passwörter abzuspeichern.
+    Wem *pass* nicht radikal minimalistisch genug ist, den kann ich ja vielleicht mit folgendem Ansatz
+    begeistern, die Passwörter mit einer Hashfunktion bei Bedarf jedes Mal neu zu generieren.
 ---
 
-In meinem anderen [Artikel]({{< ref "pass_passwortmanager" >}}) habe ich mit *pass*,
+In meinem anderen [Artikel]({{< ref "pass_passwortmanager" >}}) habe ich mit *pass*
 einen minimalistischen Passwortmanager vorgestellt, der immer noch davon abhängt,
 die Passwörter (verschlüsselt) irgendwo abzuspeichern.
 Wem *pass* nicht radikal minimalistisch genug ist, den kann ich ja vielleicht mit folgendem Ansatz

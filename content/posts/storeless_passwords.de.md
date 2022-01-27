@@ -1,11 +1,10 @@
 ---
 title: "Passwörter verwalten ganz ohne sie abzuspeichern"
-date: 2022-01-17T14:03:48+01:00
+date: 2022-01-27T15:00:00+01:00
 authors: ["Tino Michael"]
 categories: ["Workflow"]
 tags: ["Sicherheit", "shell"]
 # banner:
-draft: true
 ---
 
 In meinem anderen [Artikel]({{< ref "pass_passwortmanager" >}}) habe ich mit *pass*,
@@ -43,9 +42,32 @@ Wenn man das Passwort nicht im Klartext in der Konsole haben möchte, kann man e
 gleich in die Zwischenablage kopieren:
 
 ```shell
-$ cat sha_pw_clip
 #!/bin/sh
 printf $1$2 | sha256sum | awk '{print $1}' | xclip -selection clipboard
+```
+
+## Sonderzeichen und Passwortlänge?
+
+Dem aufmerksamen Leser wird auffallen, dass die Hashfunktion nur Zahlen und kleine Buchstaben bis "f"
+erzeugt (es wird ein Bitstream erzeugt, der Byte-weise im Hexadezimalformat dargestellt wird).
+Viele Webseiten verlangen jedoch aus "Sicherheitsgründen", dass auch Großbuchstaben und Sonderzeichen
+vorkommen sollen.
+Bevor man jetzt den Hashwert nach z.B. ASCII konvertiert (und sich überlegt, was man mit den ganzen
+nicht-druckbare Zeichen machen soll), ist meine Idee viel simpler:
+Fügt einfach eine konstante Zeichenkette vor den Hash, der eine Auswahl der verlangten Zeichen enthält,
+etwa:
+
+```shell
+... | awk -v prefix='!AB_' '{print prefix$1}' | ...
+```
+
+Wem das Passwort zu lang ist (es gibt Webseiten, die eine Maximallänge vorgeben), kann es ganz einfach
+mit einem `cut -c1-20` kürzen.
+Die vollständige Implementierung sieht am Ende dann so aus:
+
+```shell
+#!/bin/sh
+printf $1$2 | sha256sum | awk -v prefix='!AB_' '{print prefix$1}' | cut -c1-20
 ```
 
 ## Nachteile

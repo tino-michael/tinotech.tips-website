@@ -200,7 +200,7 @@ Zum Auslesen der Passwörter benutze ich neben der Konsole auch noch ein selbst 
 
 `pass_menu` ist mein [dmenu](https://wiki.archlinux.org/title/Dmenu) (bzw. [rofi](https://wiki.archlinux.org/title/Rofi))
 Wrapper-Skript für *pass* und auf
-[meinem GitHub](https://github.com/tino-michael/dot_configs/blob/main/local/bin/pass_menu) zu finden.
+[meinem GitHub](https://github.com/tino-michael/dot_configs/blob/main/.local/bin/pass_menu) zu finden.
 Es listet alle Einträge aus dem Passwort Store in einem Popup-Menü auf.
 In dem Menü kann man über das Textfeld nach Einträgen suchen und sie mit der Entertaste auswählen.
 Mit dieser Auswahl wird die Datei entschlüsselt und das Passwort für 45 Sekunden in die Zwischenablage
@@ -227,7 +227,7 @@ Was man dabei allerdings noch beachten sollte, erkläre ich lieber in einem
 [anderen Artikel]({{< ref pass_browserpass >}}).
 
 {{< gallery/gallery
-    caption="Das `browserpass`-Plugin erkennt die aktuelle Webseite und findet die entpsrechenden Login-Daten. Diese können über eine Tastenkombination auf der Webseite eingetragen werden."
+    caption="Das *browserpass*-Plugin erkennt die aktuelle Webseite und findet die entsprechenden Login-Daten. Diese können über eine Tastenkombination auf der Webseite eingetragen werden."
     ncol=5
 >}}
 {{< gallery/image

@@ -36,7 +36,7 @@ to get into more detail in another post.
 
 Registration is simple and can be completed entirely online.
 If you register with my {{< reflink/nexo "referral link" >}}, you can get a one-time welcome bonus of
-10&#8239;USD (as of January 2022).
+25&#8239;USD (as of February 2022).
 If you want to utilize everything Nexo has to offer around fiat money like Euro and US Dollar, you
 need to go through a KYC-procedur ("Know Your Customer") and verify that you are who you claim to be.
 Equipped with laptop, webcam and passport / ID, this is done quickly.

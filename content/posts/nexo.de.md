@@ -30,7 +30,7 @@ Darüber hinaus bietet Nexo auch kompetitive Zinsen auf verschiedene Crypto-Coin
 aber in einem anderen Beitrag näher eingehen möchte.
 
 Wer sich über meinen {{< reflink/nexo Referral-Link >}} anmeldet, kann sich einen einmaligen
-10&#8239;USD Willkommensbonus sichern (Stand Januar 2022).
+25&#8239;USD Willkommensbonus sichern (Stand Februar 2022).
 Wenn man das volle Angebot um Fiat-Geld wie Euro oder US Dollar wahrnehmen möchte, muss man nach
 der Registrierung eine KYC-Prozedur  ("Know Your Customer", englisch für "Kenne deinen Kunden")
 durchführen und verifizieren, dass man auch die Person ist, für die man sich ausgibt.

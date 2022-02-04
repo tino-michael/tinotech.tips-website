@@ -41,8 +41,8 @@ What keysize do you want? (3072)
 ```
 
 Bei der Schlüsselgröße gibt es mittlerweile keinen Grund, nicht das Maximum von 4096 zu wählen.
-(Es sei denn, man hat es noch mit älterer Hard- bzw. Software zu tun, welche diese Schlüsselgröße
-nicht unterstützen...)
+(Es sei denn, man hat es tatsächlich noch mit älterer Hard- bzw. Software zu tun,
+welche diese Schlüsselgröße nicht unterstützen...)
 
 ```shell
 Requested keysize is 4096 bits
@@ -68,8 +68,6 @@ Is this correct? (y/N) y
 
 GnuPG needs to construct a user ID to identify your key.
 
-Real name: Tino
-Name must be at least 5 characters long
 Real name: Tino M
 Email address: email@adresse.de
 Comment:
@@ -84,7 +82,8 @@ Schlüsselpaar gespeichert werden. Der Kommentar kann auch leer bleiben.
 Danach kann man den neuen Schlüssel noch mit einem Passwort absichern.
 Zum Abschluss wird noch eine kurze Übersicht über den erstellten Schlüssel ausgegeben.
 Die längliche alphanumerische ID `3845...` ist dabei die ID, die beim Initialisieren des *pass*
-Passwort Stores angegeben werden soll.
+Passwort Stores angegeben werden soll
+([siehe hier]({{< ref pass_passwortmanager >}} "pass, der Unix Passwortmanager")).
 
 ```shell
 pub   rsa4096 2022-01-18 [SC]
@@ -99,3 +98,18 @@ Wer ein bisschen mehr Auswahl bei der Schlüsselerzeugung haben möchte,
 kann `gpg` auch im `expert`-Modus starten.
 Um diesen Artikel hier aber kurz und knapp zu halten, gehe ich darauf aber
 lieber in einem [anderen Artikel]({{< ref "generate_gpg_keys_expert" >}} "GPG Expertenmodus") ein.
+
+## Letzte Worte
+
+Natürlich ist kaum ein Artikel über Verschlüsselungen komplett, ohne auf einen gewissen
+[xkcd](https://xkcd.com/538/) Comic zu verweisen:
+
+{{< gallery/gallery
+    caption="<i>Security — Actual actual reality: nobody cares about his secrets.</i>  von xkcd.com"
+>}}
+
+{{< gallery/image
+    src="https://imgs.xkcd.com/comics/security.png"
+>}}
+
+{{< /gallery/gallery >}}

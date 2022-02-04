@@ -1,17 +1,21 @@
 ---
 Title: "GPG-Schlüssel generieren — Expertenmodus"
-date: 2022-01-18T01:40:00+02:00
+date: 2022-02-04T21:00:00+02:00
 # banner:
 authors: ["Tino Michael"]
 categories: ["Workflow"]
 tags: ["sicherheit"]
-draft: true
-#  summary:
+summary: |
+    Ich habe bereits eine kurze Anleitung gegeben, wie man sich schnell ein GPG-Schlüsselpaar
+    generieren kann.
+    Allerdings bietet *gpg* im expert-Modus noch einige weitere Möglichkeiten,
+    die erzeugten Schlüssel an die eigenen Anforderungen anzupassen.
+    Von diesem Expertenmodus möchte ich hier mehr berichten.
 ---
 
 Ich habe bereits [hier]({{< ref "generate_gpg_keys" >}} "GPG-Schlüssel generieren")
 eine kurze Anleitung gegeben, wie man sich schnell ein GPG-Schlüsselpaar generieren kann.
-Allerdings bietet `gpg` im `expert`-Modus noch einige weitere Möglichkeiten,
+Allerdings bietet *gpg* im `expert`-Modus noch einige weitere Möglichkeiten,
 die erzeugten Schlüssel an die eigenen Anforderungen anzupassen.
 So kann man neben dem klassischen
 [RSA-Verfahren](https://de.wikipedia.org/wiki/RSA-Kryptosystem "RSA-Kryptosystem – Wikipedia") auch

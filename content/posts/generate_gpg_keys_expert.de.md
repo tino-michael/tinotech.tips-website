@@ -1,7 +1,7 @@
 ---
 Title: "GPG-Schlüssel generieren — Expertenmodus"
 date: 2022-02-04T21:00:00+02:00
-# banner:
+banner: "img/posts/encryption/keys_labelled.webp"
 authors: ["Tino Michael"]
 categories: ["Workflow"]
 tags: ["sicherheit"]
@@ -143,7 +143,7 @@ gpg>
 
 Nun hat man einen dedizierte Schlüssel um etwa E-Mails zu signieren und einen anderen um Dateien
 zu verschlüsseln (z.B. seinen [pass Password Store]({{< ref "pass_passwortmanager" >}})).
-Man kann sich auch leicht einen zweiten Signatur-Schlüssel erzeugen, um etwa einen privat und den 
+Man kann sich auch leicht einen zweiten Signatur-Schlüssel erzeugen, um etwa einen privat und den
 anderen beruflich zu verwenden.
 
 ## RSA oder elliptische Kurven

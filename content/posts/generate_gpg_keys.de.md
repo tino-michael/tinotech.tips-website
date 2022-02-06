@@ -1,13 +1,13 @@
 ---
 Title: "GPG-Schlüssel generieren"
 date: 2022-02-04T20:00:00+02:00
-# banner:
+banner: "img/posts/encryption/rusty_padlock.webp"
 authors: ["Tino Michael"]
 categories: ["Workflow"]
 tags: ["sicherheit"]
 summary: |
     GPG ist ein weit verbreitetes Tool zum Verschlüsseln und Signieren von Dateien und Nachrichten.
-    Wie man mit dem *gpg*-Befehl schnell für diese Vorgänge nötiges Schlüsselpaar erzeugt, 
+    Wie man mit dem *gpg*-Befehl schnell für diese Vorgänge nötiges Schlüsselpaar erzeugt,
     zeige ich in diesem Beitrag.
 ---
 

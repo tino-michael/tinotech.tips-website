@@ -4,7 +4,7 @@ date: 2022-01-27T15:00:00+01:00
 authors: ["Tino Michael"]
 categories: ["Workflow"]
 tags: ["Sicherheit", "shell"]
-# banner:
+banner: "img/posts/encryption/encrypted_message.webp"
 summary: |
     In einem anderen Artikel habe ich mit *pass* einen minimalistischen Passwortmanager vorgestellt,
     der immer noch davon abhängt, die Passwörter abzuspeichern.

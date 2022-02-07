@@ -23,8 +23,8 @@
         <div class="data_cell">{{ .site }}</div>
         <div class="data_cell">
             {{ .description }}
-            {{ with (site.GetPage .article).Permalink }}
-                <a href={{ . }}>{{ i18n "affiliateToArticle" }}</a>
+            {{ with .article }}
+                <a href={{ (site.GetPage .).Permalink }}>{{ i18n "affiliateToArticle" }}</a>
             {{ end }}
         </div>
         <div class="data_cell">{{ .you_get }}</div>
